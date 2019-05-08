@@ -21,6 +21,10 @@ build/
 # pytest
 .pytest_cache/
 
-# tox
-.tox/
-Lib/site-packages/
+bin/*
+!bin/*.dll
+!bin/python.exe
+!bin/pythonw.exe
+
+Lib/site-packages/*
+!Lib/site-packages/sitecustomize.py
