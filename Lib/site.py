@@ -64,10 +64,10 @@ import __builtin__
 import traceback
 
 # Prefixes for site-packages; add additional prefixes like /usr/local here
-PREFIXES = [sys.exec_prefix]
+PREFIXES = [sys.prefix, sys.exec_prefix]
 # Enable per user site-packages directory
 # set it to False to disable the feature or True to force the feature
-ENABLE_USER_SITE = False
+ENABLE_USER_SITE = None
 
 # for distutils.commands.install
 # These values are initialized by the getuserbase() and getusersitepackages()

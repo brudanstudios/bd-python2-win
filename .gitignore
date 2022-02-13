@@ -10,9 +10,6 @@ __pycache__/
 .settings/
 .idea/
 
-# virtual environment
-venv/
-
 # setuptools
 dist/
 build/
@@ -21,10 +18,4 @@ build/
 # pytest
 .pytest_cache/
 
-bin/*
-!bin/*.dll
-!bin/python.exe
-!bin/pythonw.exe
-
 Lib/site-packages/*
-!Lib/site-packages/sitecustomize.py
